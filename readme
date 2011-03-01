@@ -6,5 +6,3 @@ Entity Framework
 Machine.Specifications via Nuget
 
 The project is available via this github repo or you can download the template for Visual Studio 2010.  The template is located in the infrastructure/vs2010template directory.  To use this template in Visual Studio 2010, just look in your 'ProjectTemplates' Folder.  It should be located by default in the My Documents\Visual Studio 2010\Templates directory.  Just place the zip there and when creating a new project this template will appear in the list of templates.
-
-http://adronhall.smugmug.com/Software/Misc-Images/Just-Icons-and-Bits/1298948553batchprocess/1202105127_BMv7N-S.png
