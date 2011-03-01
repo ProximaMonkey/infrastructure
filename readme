@@ -4,3 +4,5 @@ ASP.NET MVC 3 with Razor
 Entity Framework
   -Repositories Pattern Implemented
 Machine.Specifications via Nuget
+
+The project is available via this github repo or you can download the template for Visual Studio 2010.  The template is located in the infrastructure/vs2010template directory.
