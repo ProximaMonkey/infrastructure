@@ -2,7 +2,7 @@ This project is setup to provide a basic infrastructure setup around the followi
 
 ASP.NET MVC 3 with Razor
 Entity Framework
-  -Repositories Pattern Implemented
+  -Initial Repositories Pattern Skeleton Implemented
 Machine.Specifications via Nuget
 
 The project is available via this github repo or you can download the template for Visual Studio 2010.  The template is located in the infrastructure/vs2010template directory.  To use this template in Visual Studio 2010, just look in your 'ProjectTemplates' Folder.  It should be located by default in the My Documents\Visual Studio 2010\Templates directory.  Just place the zip there and when creating a new project this template will appear in the list of templates.
