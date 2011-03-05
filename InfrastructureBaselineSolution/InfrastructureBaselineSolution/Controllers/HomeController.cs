@@ -9,5 +9,9 @@ namespace InfrastructureBaselineSolution.Controllers
             return View();
         }
 
+        public ActionResult ZenGarden()
+        {
+            return View();
+        }
     }
 }
