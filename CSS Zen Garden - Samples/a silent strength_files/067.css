@@ -1,0 +1,228 @@
+body {
+	background: url("main_bg_pattern.gif") rgb(173, 181, 141); margin: 0px; padding: 0px; text-align: center;
+}
+p {
+	font: 11px/normal verdana; text-align: left; font-size-adjust: none; font-stretch: normal;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+a:link {
+	color: rgb(90, 104, 46); text-decoration: underline;
+}
+a:visited {
+	color: rgb(56, 70, 12); text-decoration: underline;
+}
+a:hover {
+	color: rgb(56, 0, 0); text-decoration: underline;
+}
+a:active {
+	color: rgb(56, 0, 0); text-decoration: underline;
+}
+acronym {
+	border-bottom-color: rgb(56, 70, 12); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+a acronym {
+	bottom-border: 0;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px 40px 0px 335px; padding: 0px; width: 395px;
+}
+h2 {
+	margin: 0px 40px 0px 335px; padding: 0px; width: 395px;
+}
+h1 {
+	background: url("intro_bg_a.jpg") no-repeat left top rgb(244, 245, 240); height: 110px;
+}
+h2 {
+	background: url("intro_bg_b.jpg") no-repeat left top rgb(244, 245, 240); height: 106px;
+}
+h1 span {
+	display: none;
+}
+h2 span {
+	display: none;
+}
+#container {
+	background: url("container_bg.jpg") repeat-y left top rgb(255, 255, 255); width: 770px; text-align: left; margin-right: auto; margin-left: auto;
+}
+#quickSummary {
+	margin: 0px 40px 0px 335px; padding: 0px 15px; width: 365px; border-bottom-color: rgb(227, 228, 224); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#preamble {
+	margin: 0px 40px 0px 335px; padding: 0px 15px; width: 365px; border-bottom-color: rgb(227, 228, 224); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#explanation {
+	margin: 0px 40px 0px 335px; padding: 0px 15px; width: 365px; border-bottom-color: rgb(227, 228, 224); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#participation {
+	margin: 0px 40px 0px 335px; padding: 0px 15px; width: 365px; border-bottom-color: rgb(227, 228, 224); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#benefits {
+	margin: 0px 40px 0px 335px; padding: 0px 15px; width: 365px; border-bottom-color: rgb(227, 228, 224); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#requirements {
+	margin: 0px 40px 0px 335px; padding: 0px 15px; width: 365px; border-bottom-color: rgb(227, 228, 224); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#quickSummary {
+	background: url("quicksum_title.gif") no-repeat left top; padding-top: 30px;
+}
+#preamble {
+	background: url("theroad_title.gif") no-repeat left top; padding-top: 30px;
+}
+#explanation {
+	background: url("explain_title.gif") no-repeat left top; padding-top: 30px;
+}
+#participation {
+	background: url("participate_title.gif") no-repeat left top; padding-top: 30px;
+}
+#benefits {
+	background: url("benefit_title.gif") no-repeat left top; padding-top: 30px;
+}
+#requirements {
+	background: url("req_title.gif") no-repeat left top; padding-top: 30px;
+}
+#preamble h3 {
+	display: none;
+}
+#explanation h3 {
+	display: none;
+}
+#participation h3 {
+	display: none;
+}
+#benefits h3 {
+	display: none;
+}
+#requirements h3 {
+	display: none;
+}
+#quickSummary p {
+	margin: 10px 5px; color: rgb(56, 70, 12); line-height: 16px;
+}
+#preamble p {
+	margin: 10px 5px; color: rgb(56, 70, 12); line-height: 16px;
+}
+#explanation p {
+	margin: 10px 5px; color: rgb(56, 70, 12); line-height: 16px;
+}
+#participation p {
+	margin: 10px 5px; color: rgb(56, 70, 12); line-height: 16px;
+}
+#benefits p {
+	margin: 10px 5px; color: rgb(56, 70, 12); line-height: 16px;
+}
+#requirements p {
+	margin: 10px 5px; color: rgb(56, 70, 12); line-height: 16px;
+}
+#footer {
+	font: 10px/normal verdana; margin: 10px 40px 0px 335px; width: 365px; text-align: center; padding-bottom: 10px; font-size-adjust: none; font-stretch: normal;
+}
+#linkList {
+	background: url("intro_title.jpg") no-repeat left top rgb(255, 255, 255); margin: 0px 0px 0px 58px; padding: 110px 0px 0px; top: 0px; width: 277px; height: 100%; position: absolute;
+}
+#linkList ul {
+	margin: 0px; padding: 0px;
+}
+#lselect {
+	background: url("select_nav_title.gif") no-repeat left top; padding-top: 30px;
+}
+#lselect h3 {
+	display: none;
+}
+#lselect ul {
+	margin: 0px; padding: 0px; width: 235px; voice-family: inherit;
+}
+#lselect li {
+	background: url("li_bg_tab.gif") no-repeat left bottom rgb(222, 225, 211); font: 11px/normal verdana; margin: 0px 0px -3px 20px; padding: 5px 10px 15px; width: 215px; height: auto; list-style-type: none; font-size-adjust: none; font-stretch: normal; voice-family: inherit;
+}
+div[id='lselect'] > li {
+	margin: 0px 0px 0px 20px;
+}
+#lselect li a:link {
+	margin: 0px; color: rgb(57, 71, 13); font-weight: bold; display: block;
+}
+#lselect li a:visited {
+	margin: 0px; color: rgb(57, 71, 13); font-weight: bold; display: block;
+}
+#linkList li a.c:link {
+	padding: 0px; color: rgb(146, 155, 112); font-weight: normal; text-decoration: underline; display: inline;
+}
+#linkList li a.c:visited {
+	padding: 0px; color: rgb(146, 155, 112); font-weight: normal; text-decoration: underline; display: inline;
+}
+#linkList a.c:hover {
+	text-decoration: underline;
+}
+#larchives {
+	background: url("archive_title.gif") no-repeat left top rgb(255, 255, 255); padding-top: 30px;
+}
+#larchives h3 {
+	display: none;
+}
+#larchives ul {
+	margin: 0px; padding: 0px; width: 235px;
+}
+#lresources ul {
+	margin: 0px; padding: 0px; width: 235px;
+}
+#larchives li {
+	font: 11px/normal verdana; margin: 0px 0px 0px 20px; padding: 5px 5px 0px; width: 215px; list-style-type: none; font-size-adjust: none; font-stretch: normal;
+}
+#lresources li {
+	font: 11px/normal verdana; margin: 0px 0px 0px 20px; padding: 5px 5px 0px; width: 215px; list-style-type: none; font-size-adjust: none; font-stretch: normal;
+}
+#larchives a:link {
+	color: rgb(146, 155, 112); text-decoration: underline;
+}
+#larchives a:visited {
+	color: rgb(146, 155, 112); text-decoration: underline;
+}
+#lresources a:link {
+	color: rgb(146, 155, 112); text-decoration: underline;
+}
+#lresources a:visited {
+	color: rgb(146, 155, 112); text-decoration: underline;
+}
+#larchives a:hover {
+	color: rgb(129, 138, 96);
+}
+#lresources a:hover {
+	color: rgb(129, 138, 96);
+}
+#lresources {
+	background: url("res_title.gif") no-repeat left top rgb(255, 255, 255); padding-top: 47px;
+}
+#lresources h3 {
+	display: none;
+}
+#extraDiv1 {
+	display: none;
+}
+#extraDiv2 {
+	display: none;
+}
+#extraDiv3 {
+	display: none;
+}
+#extraDiv4 {
+	display: none;
+}
+#extraDiv5 {
+	display: none;
+}
+#extraDiv6 {
+	display: none;
+}

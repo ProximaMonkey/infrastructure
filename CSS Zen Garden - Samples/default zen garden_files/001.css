@@ -1,0 +1,117 @@
+html {
+	margin: 0px; padding: 0px;
+}
+body {
+	background: url("/001/blossoms.jpg") no-repeat right bottom rgb(255, 255, 255); font: 75%/1.8888 georgia, sans-serif; margin: 0px; padding: 0px; color: rgb(85, 87, 83); font-size-adjust: none; font-stretch: normal;
+}
+p {
+	text-align: justify; margin-top: 0px;
+}
+h3 {
+	font: italic 1.4em/normal georgia, sans-serif; color: rgb(125, 119, 92); letter-spacing: 1px; margin-bottom: 0px; font-size-adjust: none; font-stretch: normal;
+}
+a:link {
+	color: rgb(183, 165, 223); font-weight: bold; text-decoration: none;
+}
+a:visited {
+	color: rgb(212, 205, 220); font-weight: bold; text-decoration: none;
+}
+a:hover {
+	color: rgb(150, 133, 186); text-decoration: underline;
+}
+a:active {
+	color: rgb(150, 133, 186); text-decoration: underline;
+}
+acronym {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#container {
+	background: url("/001/zen-bg.jpg") no-repeat left top; margin: 0px; padding: 0px 175px 0px 110px; position: relative;
+}
+#intro {
+	width: 100%; min-width: 470px;
+}
+#pageHeader h1 {
+	background: url("/001/h1.gif") no-repeat left top; width: 219px; height: 87px; margin-top: 10px; float: left; display: block;
+}
+#pageHeader h1 span {
+	display: none;
+}
+#pageHeader h2 {
+	background: url("/001/h2.gif") no-repeat left top; width: 200px; height: 18px; margin-top: 58px; margin-bottom: 40px; float: right;
+}
+#pageHeader h2 span {
+	display: none;
+}
+#pageHeader {
+	height: 87px; padding-top: 20px;
+}
+#quickSummary {
+	margin: 20px 20px 20px 10px; width: 160px; clear: both; float: left;
+}
+#quickSummary p {
+	font: italic 1.1em/2.2 georgia; text-align: center; font-size-adjust: none; font-stretch: normal;
+}
+#preamble {
+	padding: 0px 10px; clear: right;
+}
+#supportingText {
+	padding-left: 10px; margin-bottom: 40px;
+}
+#footer {
+	text-align: center;
+}
+#footer a:link {
+	margin-right: 20px;
+}
+#footer a:visited {
+	margin-right: 20px;
+}
+#linkList {
+	top: 0px; right: 0px; margin-left: 600px; position: absolute;
+}
+#linkList2 {
+	background: url("/001/paper-bg.jpg") repeat-y left top; font: 10px/normal verdana, sans-serif; padding: 10px; width: 130px; margin-top: 150px; font-size-adjust: none; font-stretch: normal;
+}
+#linkList h3.select {
+	background: url("/001/h3.gif") no-repeat left top; margin: 10px 0px 5px; width: 97px; height: 16px;
+}
+#linkList h3.select span {
+	display: none;
+}
+#linkList h3.favorites {
+	background: url("/001/h4.gif") no-repeat left top; margin: 25px 0px 5px; width: 60px; height: 18px;
+}
+#linkList h3.favorites span {
+	display: none;
+}
+#linkList h3.archives {
+	background: url("/001/h5.gif") no-repeat left top; margin: 25px 0px 5px; width: 57px; height: 14px;
+}
+#linkList h3.archives span {
+	display: none;
+}
+#linkList h3.resources {
+	background: url("/001/h6.gif") no-repeat left top; margin: 25px 0px 5px; width: 63px; height: 10px;
+}
+#linkList h3.resources span {
+	display: none;
+}
+#linkList ul {
+	margin: 0px; padding: 0px;
+}
+#linkList li {
+	background: url("/001/cr1.gif") no-repeat top; line-height: 1.3em; padding-top: 5px; margin-bottom: 5px; display: block; list-style-type: none;
+}
+#linkList li a:link {
+	color: rgb(152, 143, 94);
+}
+#linkList li a:visited {
+	color: rgb(179, 174, 148);
+}
+#extraDiv1 {
+	background: url("/001/cr2.gif") no-repeat left top; top: 40px; width: 148px; height: 110px; right: 0px; position: absolute;
+}
+.accesskey {
+	text-decoration: underline;
+}

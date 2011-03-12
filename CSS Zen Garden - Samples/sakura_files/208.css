@@ -1,0 +1,222 @@
+body {
+	font: 75%/1.4 verdana, Helvetica, sans-serif; margin: 0px; padding: 0px; text-align: center; font-size-adjust: none; font-stretch: normal; background-image: url("body_bg.gif");
+}
+h1 {
+	display: none;
+}
+h2 {
+	display: none;
+}
+h3 span {
+	display: none;
+}
+h3 {
+	margin: 0px; padding: 0px; height: 39px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+acronym {
+	border: currentColor;
+}
+a {
+	color: rgb(217, 24, 159); text-decoration: underline; background-color: rgb(255, 255, 255);
+}
+a:hover {
+	color: rgb(252, 122, 213); background-color: rgb(255, 255, 255);
+}
+a:hover {
+	color: rgb(252, 122, 213); background-color: rgb(255, 255, 255);
+}
+#container {
+	background: url("bg.gif") repeat-x rgb(223, 223, 223); margin: 0px auto; padding: 0px 13px; width: 772px; text-align: left; color: rgb(69, 69, 69); border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; position: relative;
+}
+#pageHeader {
+	background: url("top.jpg"); width: 772px; height: 179px;
+}
+#quickSummary {
+	margin: 0px 0px 2px 226px; padding: 0px; width: 546px; color: rgb(69, 69, 69); display: block; background-repeat: repeat-y; background-color: rgb(255, 255, 255);
+}
+#preamble {
+	margin: 0px 0px 2px 226px; padding: 0px; width: 546px; color: rgb(69, 69, 69); display: block; background-repeat: repeat-y; background-color: rgb(255, 255, 255);
+}
+#explanation {
+	margin: 0px 0px 2px 226px; padding: 0px; width: 546px; color: rgb(69, 69, 69); display: block; background-repeat: repeat-y; background-color: rgb(255, 255, 255);
+}
+#participation {
+	margin: 0px 0px 2px 226px; padding: 0px; width: 546px; color: rgb(69, 69, 69); display: block; background-repeat: repeat-y; background-color: rgb(255, 255, 255);
+}
+#benefits {
+	margin: 0px 0px 2px 226px; padding: 0px; width: 546px; color: rgb(69, 69, 69); display: block; background-repeat: repeat-y; background-color: rgb(255, 255, 255);
+}
+#requirements {
+	margin: 0px 0px 2px 226px; padding: 0px; width: 546px; color: rgb(69, 69, 69); display: block; background-repeat: repeat-y; background-color: rgb(255, 255, 255);
+}
+#footer {
+	margin: 5px 0px 0px 226px; padding: 3px 14px 43px 0px; width: 539px; text-align: right;
+}
+#linkList {
+	left: 20px; top: 179px; width: 207px; position: absolute;
+}
+#lselect {
+	margin: 0px 0px 2px;
+}
+#larchives {
+	margin: 0px 0px 2px;
+}
+#lresources {
+	margin: 0px 0px 2px;
+}
+#quickSummary p span {
+	padding: 0px 15px 10px 77px; display: block;
+}
+#explanation p span {
+	padding: 0px 15px 10px 77px; display: block;
+}
+#benefits p span {
+	padding: 0px 15px 10px 77px; display: block;
+}
+#preamble p span {
+	padding: 0px 85px 10px 17px; display: block;
+}
+#participation p span {
+	padding: 0px 85px 10px 17px; display: block;
+}
+#requirements p span {
+	padding: 0px 85px 10px 17px; display: block;
+}
+#requirements .p5 {
+	padding: 0px 85px 10px 17px;
+}
+#requirements .p5 span {
+	padding: 0px; display: inline;
+}
+#linkList li {
+	background: url("line.gif") repeat-x bottom; list-style: none; padding: 6px 0px 10px;
+}
+#linkList li a {
+	background: url("link.gif") no-repeat left; padding-left: 7px; text-decoration: none;
+}
+#linkList li a:hover {
+	text-decoration: underline;
+}
+#quickSummary .p1 span {
+	background: url("quicksummary_top.gif") no-repeat top; padding-top: 14px;
+}
+#quickSummary .p2 span {
+	background: url("right_bottom.gif") no-repeat bottom; padding-bottom: 20px;
+}
+#lselect li a {
+	background-position: 0px 0.6em; font-weight: bold; display: block;
+}
+#lselect .c {
+	background: rgb(255, 255, 255); padding: 0px; color: rgb(102, 102, 102); display: inline;
+}
+#footer a {
+	padding: 3px; border: 1px solid rgb(189, 189, 189); height: 100%; color: rgb(136, 136, 136); text-decoration: none; background-color: rgb(223, 223, 223);
+}
+#footer a:hover {
+	color: rgb(119, 119, 119); background-color: rgb(235, 235, 235);
+}
+#extraDiv1 {
+	display: none;
+}
+#extraDiv2 {
+	display: none;
+}
+#extraDiv3 {
+	display: none;
+}
+#extraDiv4 {
+	display: none;
+}
+#extraDiv5 {
+	display: none;
+}
+#extraDiv6 {
+	display: none;
+}
+#quickSummary p {
+	background: url("right_bg.gif") repeat-y right;
+}
+#explanation p {
+	background: url("right_bg.gif") repeat-y right;
+}
+#benefits p {
+	background: url("right_bg.gif") repeat-y right;
+}
+#lselect {
+	background: url("left_bg.gif") repeat-y;
+}
+#larchives {
+	background: url("left_bg.gif") repeat-y;
+}
+#lresources {
+	background: url("left_bg.gif") repeat-y;
+}
+#quickSummary {
+	background-position: left bottom; background-image: url("img_quicksummary.jpg");
+}
+#preamble {
+	background-position: right bottom; background-image: url("img_preamble.jpg");
+}
+#explanation {
+	background-position: left bottom; background-image: url("img_explanation.jpg");
+}
+#participation {
+	background-position: right bottom; background-image: url("img_participation.jpg");
+}
+#benefits {
+	background-position: left bottom; background-image: url("img_benefits.jpg");
+}
+#requirements {
+	background-position: right bottom; background-image: url("img_requirements.jpg");
+}
+#preamble h3 {
+	background: url("title_preamble.gif") no-repeat;
+}
+#explanation h3 {
+	background: url("title_explanation.gif") no-repeat;
+}
+#participation h3 {
+	background: url("title_participation.gif") no-repeat;
+}
+#benefits h3 {
+	background: url("title_benefits.gif") no-repeat;
+}
+#requirements h3 {
+	background: url("title_requirements.gif") no-repeat;
+}
+#lselect h3 {
+	background: url("title_select.gif") no-repeat;
+}
+#larchives h3 {
+	background: url("title_archives.gif") no-repeat;
+}
+#lresources h3 {
+	background: url("title_resources.gif") no-repeat;
+}
+#preamble .p3 span {
+	background: url("right_bottom.gif") no-repeat bottom; padding-bottom: 20px;
+}
+#explanation .p2 span {
+	background: url("right_bottom.gif") no-repeat bottom; padding-bottom: 20px;
+}
+#participation .p3 span {
+	background: url("right_bottom.gif") no-repeat bottom; padding-bottom: 20px;
+}
+#benefits .p1 span {
+	background: url("right_bottom.gif") no-repeat bottom; padding-bottom: 20px;
+}
+#requirements .p5 {
+	background: url("right_bottom.gif") no-repeat bottom; padding-bottom: 20px;
+}
+#lselect ul {
+	background: url("left_bottom.gif") no-repeat bottom; margin: 0px; padding: 0px 25px 20px 17px;
+}
+#larchives ul {
+	background: url("left_bottom.gif") no-repeat bottom; margin: 0px; padding: 0px 25px 20px 17px;
+}
+#lresources ul {
+	background: url("left_bottom.gif") no-repeat bottom; margin: 0px; padding: 0px 25px 20px 17px;
+}

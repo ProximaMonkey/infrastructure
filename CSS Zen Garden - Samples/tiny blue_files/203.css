@@ -1,0 +1,153 @@
+body {
+	background: url("pics/background.gif") repeat-y top rgb(255, 255, 255); margin: 0px; padding: 0px; text-align: center; color: rgb(255, 255, 255); font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 0.75em;
+}
+h1 {
+	margin: 0px; padding: 0px; text-align: center; font-size: 1.4em;
+}
+h2 {
+	margin: 0px; padding: 0px; text-align: center; font-size: 1.4em;
+}
+h3 {
+	margin: 0px; padding: 0px; text-align: center; font-size: 1.4em;
+}
+p {
+	margin: 0.9em 0px; padding: 0px; line-height: 1.2em;
+}
+#container {
+	left: 50%; width: 396px; margin-left: -198px; position: absolute;
+}
+* html #container {
+	margin-left: -197px;
+}
+#container h3 {
+	background: url("pics/header_bg.gif") left top; padding: 6px 0px;
+}
+#supportingText {
+	padding: 0px 30px; text-align: justify;
+}
+#preamble {
+	padding: 0px 30px; text-align: justify;
+}
+#linkList {
+	padding: 0px 30px; text-align: justify;
+}
+#preamble h3 {
+	margin-top: 1.4em;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ul li {
+	list-style: none; height: 1.6em; padding-left: 1em; border-bottom-color: rgb(54, 87, 121); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul li a:link {
+	color: rgb(255, 169, 77); font-weight: normal; text-decoration: none;
+}
+ul li a:visited {
+	color: rgb(255, 169, 77); font-weight: normal; text-decoration: none;
+}
+ul li acronym {
+	color: rgb(255, 169, 77); font-weight: normal; text-decoration: none;
+}
+ul li acronym {
+	border-bottom-color: rgb(255, 169, 77); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+ul li a:hover {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+ul li a:active {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+ul li a:hover acronym {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+ul li a.c:link {
+	color: rgb(188, 208, 229); font-style: italic;
+}
+ul li a.c:visited {
+	color: rgb(188, 208, 229); font-style: italic;
+}
+ul li a.c:hover {
+	color: rgb(255, 255, 255);
+}
+ul li a.c:active {
+	color: rgb(255, 255, 255);
+}
+ul li:hover {
+	background: url("pics/list_over.gif") repeat-x left top;
+}
+acronym {
+	color: rgb(188, 208, 229); border-bottom-color: rgb(188, 208, 229); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+a:link {
+	color: rgb(255, 255, 255); font-weight: bold; text-decoration: underline;
+}
+a:visited {
+	color: rgb(255, 255, 255); font-weight: bold; text-decoration: underline;
+}
+a:hover {
+	color: rgb(188, 208, 229); text-decoration: none;
+}
+a:active {
+	color: rgb(188, 208, 229); text-decoration: none;
+}
+#pageHeader {
+	background: url("pics/header.jpg") no-repeat left top; width: 396px; height: 319px;
+}
+#quickSummary {
+	margin: -0.9em 0px 0px; padding: 0px;
+}
+#quickSummary .p2 {
+	background: url("pics/download.gif") no-repeat left top; margin: 0px 0px 0.9em; padding: 0px; width: 396px; height: 25px;
+}
+#quickSummary .p2 span {
+	white-space: nowrap; visibility: hidden;
+}
+#quickSummary .p2 span a {
+	width: 198px; height: 25px; text-indent: -9000px; overflow: hidden; margin-top: -1.1em; float: left; display: block; visibility: visible;
+}
+#linkList {
+	background: url("pics/background2.gif") repeat-y top rgb(255, 255, 255); padding-top: 0.5em;
+}
+#lselect h3 {
+	width: 336px; height: 21px; margin-top: 1em;
+}
+#larchives h3 {
+	width: 336px; height: 21px; margin-top: 1em;
+}
+#lresources h3 {
+	width: 336px; height: 21px; margin-top: 1em;
+}
+#lselect h3 {
+	background: url("pics/header_design.gif") no-repeat left top;
+}
+#larchives h3 {
+	background: url("pics/header_archives.gif") no-repeat left top;
+}
+#lresources h3 {
+	background: url("pics/header_resources.gif") no-repeat left top;
+}
+#lresources ul {
+	padding-bottom: 8em;
+}
+#footer {
+	background: url("pics/footer.gif") no-repeat left bottom; padding: 6px 0px 1em; width: 396px; height: 72px; text-align: center; text-transform: uppercase; margin-top: 43em; margin-left: -30px; position: absolute;
+}
+#extraDiv1 {
+	background: url("pics/the_beauty.gif") no-repeat left top; left: 50%; top: 0px; width: 37px; height: 433px; margin-left: -235px; position: fixed;
+}
+* html #extraDiv1 {
+	position: absolute;
+}
+#linkList h3 span {
+	display: none;
+}
+#pageHeader h1 {
+	display: none;
+}
+#pageHeader h2 {
+	display: none;
+}
+#quickSummary p.p1 span {
+	display: none;
+}
