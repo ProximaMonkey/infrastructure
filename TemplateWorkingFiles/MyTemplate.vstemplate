@@ -1,0 +1,24 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
+  <TemplateData>
+    <Name>ASP.NET MVC 3 + Razor + Machine.Specifications Infrastructure Solution</Name>
+    <Description>This Visual Studio Template provides the following pieces for getting a kick start when building well designed web sites using good patterns.</Description>
+    <EnableEditOfLocationField>true</EnableEditOfLocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <Icon>Icon.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Infrastructure</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <PreviewImage>Preview.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="Infrastructure.Web">Web\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="Infrastructure.Specifications">Specifications\MyTemplate.vstemplate</ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>
