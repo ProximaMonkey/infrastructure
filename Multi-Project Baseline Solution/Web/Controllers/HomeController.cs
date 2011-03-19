@@ -13,5 +13,10 @@ namespace Web.Controllers
         {
             return View();
         }
+
+        public ActionResult ZenGarden()
+        {
+            return View();
+        }
     }
 }
