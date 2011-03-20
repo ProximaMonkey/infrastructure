@@ -55,6 +55,7 @@
     </script>
     <link rel="stylesheet" type="text/css" title="Zen Garden Default" href="../../Content/zengarden-sample.css" />
     <link rel="alternate stylesheet" type="text/css" title="ASP.NET MVC Site CSS" href="../../Content/Site.css" />
+    <link rel="alternate stylesheet" type="text/css" title="Co. Ltd." href="../../Content/CoLtd.css" />
     <title>@ViewBag.Title</title>
 </head>
 <body onload="set_style_from_cookie()">
@@ -64,7 +65,10 @@
             <input type="submit" onclick="switch_style('Zen Garden Default');return false;" name="theme" value="Zen Garden Default Theme"
                 id="blue" />
             <input type="submit" onclick="switch_style('ASP.NET MVC Site CSS');return false;" name="theme" value="ASP.NET MVC Site CSS Theme"
+                id="pink" /> 
+                 <input type="submit" onclick="switch_style('Co. Ltd.');return false;" name="theme" value="Co. Ltd."
                 id="pink" />
+
             </form>
         </div>
         @RenderBody()

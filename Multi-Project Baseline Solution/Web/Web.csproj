@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assembly.ico" />
+    <Content Include="Content\CoLtd.css" />
     <Content Include="Content\zengarden-sample.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
