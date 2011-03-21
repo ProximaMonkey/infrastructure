@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BeautyOfCss" xml:space="preserve">
-    <value>The Beauty of Cascading Style Sheet (CSS) Design</value>
+    <value>La beauté de la cascade de feuille de style (CSS) Design</value>
   </data>
   <data name="QuickSummaryP1" xml:space="preserve">
-    <value>A demonstration of what can be accomplished visually through CSS-based design. Select any style sheet from the list to load it into this page.</value>
+    <value>Une démonstration de ce qui peut être accompli grâce à la conception visuelle basée sur les CSS. Sélectionnez une feuille de style dans la liste pour le charger dans cette page.</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>Infrastructure Baseline Solution css Zen Garden Page</value>
+    <value>Solution de référence Infrastructure css Zen Garden Page</value>
   </data>
 </root>
