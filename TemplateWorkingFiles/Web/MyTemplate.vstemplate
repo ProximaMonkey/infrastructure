@@ -16,8 +16,17 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="Web.csproj" File="Web.csproj" ReplaceParameters="true">
+      <Folder Name="App_GlobalResources" TargetFolderName="App_GlobalResources">
+        <ProjectItem ReplaceParameters="true" TargetFileName="WebResources.resx">WebResources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WebResources.Designer.cs">WebResources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ZenGarden.it.resx">ZenGarden.it.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ZenGarden.it.designer.cs">ZenGarden.it.designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ZenGarden.resx">ZenGarden.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ZenGarden.Designer.cs">ZenGarden.Designer.cs</ProjectItem>
+      </Folder>
       <ProjectItem ReplaceParameters="false" TargetFileName="Assembly.ico">Assembly.ico</ProjectItem>
       <Folder Name="Content" TargetFolderName="Content">
+        <ProjectItem ReplaceParameters="true" TargetFileName="CoLtd.css">CoLtd.css</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
         <Folder Name="themes" TargetFolderName="themes">
           <Folder Name="base" TargetFolderName="base">

@@ -1,26 +1,31 @@
 ﻿@{
     ViewBag.Title = "Zen Garden Sample Page";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-@section headerAdditions{
-    <link href="@Url.Content("~/Content/zengarden-sample.css")" rel="stylesheet" type="text/css" />
+    Layout = "~/Views/Shared/_ZenLayout.cshtml";
 }
 <div id="intro">
     <div id="pageHeader">
         <h1>
-            <span>Infrastructure Baseline Solution css Zen Garden Page</span></h1>
+            <span>
+                @Resources.ZenGarden.Title
+            </span>
+        </h1>
         <h2>
-            <span>The Beauty of <acronym title="Cascading Style Sheets">CSS</acronym> Design</span></h2>
+            <span>
+                @Resources.ZenGarden.BeautyOfCss
+            </span>
+        </h2>
     </div>
     <div id="quickSummary">
         <p class="p1">
-            <span>A demonstration of what can be accomplished visually through <acronym title="Cascading Style Sheets">
-                CSS</acronym>-based design. Select any style sheet from the list to load it into
-                this page.</span></p>
+            <span>
+                @Resources.ZenGarden.QuickSummaryP1
+            </span>
+        </p>
         <p class="p2">
-            <span>Download the sample <a href="zengarden-sample.html" title="This page's source HTML code, not to be modified.">
-                html file</a> and <a href="zengarden-sample.css" title="This page's sample CSS, the file you may modify.">
-                    css file</a></span></p>
+            <span>
+                @Resources.ZenGarden.QuickSummaryP2
+            </span>
+        </p>
     </div>
     <div id="preamble">
         <h3>

@@ -10,22 +10,15 @@
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>Infrastructure</DefaultName>
-    <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
-    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <PreviewImage>Preview.png</PreviewImage>
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>
       <ProjectTemplateLink ProjectName="Infrastructure.Web">Web\MyTemplate.vstemplate</ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="Infrastructure.Specifications">Specifications\MyTemplate.vstemplate</ProjectTemplateLink>
-	  <ProjectTemplateLink ProjectName="Infrastructure.Data">Data\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="Infrastructure.Data">Data\MyTemplate.vstemplate</ProjectTemplateLink>
     </ProjectCollection>
-	
-	<Folder Name="packages" TargetFolderName="packages">
-        
-	</Folder>
-	
   </TemplateContent>
 </VSTemplate>
 
