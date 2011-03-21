@@ -1,4 +1,8 @@
-﻿namespace Specifications.Controllers
+﻿using System.Web.Mvc;
+using Machine.Specifications;
+using Web.Controllers;
+
+namespace Specifications.Controllers
 {
         public abstract class with_a_home_controller
         {
