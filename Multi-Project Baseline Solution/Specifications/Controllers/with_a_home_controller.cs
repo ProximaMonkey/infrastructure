@@ -12,7 +12,7 @@ namespace Specifications.Controllers
         protected static HomeController controller;
     }
 
-    public class when_calling_home_index : with_a_home_controller
+    public class when_calling_index : with_a_home_controller
     {
         static ActionResult result;
 
@@ -23,18 +23,7 @@ namespace Specifications.Controllers
             result.ShouldNotBeNull();
     }
 
-    public class when_calling_home_translations : with_a_home_controller
-    {
-        static ActionResult result;
-
-        Because of = () =>
-            result = controller.Index();
-
-        It should_return_index = () =>
-            result.ShouldNotBeNull();
-    }
-
-    public class when_calling_home_stylepage : with_a_home_controller
+    public class when_calling_translations : with_a_home_controller
     {
         static ActionResult result;
 

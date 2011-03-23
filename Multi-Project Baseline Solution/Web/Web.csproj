@@ -62,6 +62,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>WebResources.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\ZenGarden.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ZenGarden.fr.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\ZenGarden.it.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -73,7 +78,6 @@
       <DependentUpon>ZenGarden.resx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ZenGardenController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -159,6 +163,12 @@
     <Content Include="App_GlobalResources\ZenGarden.it.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>ZenGarden.it.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\ZenGarden.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ZenGarden.fr.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
