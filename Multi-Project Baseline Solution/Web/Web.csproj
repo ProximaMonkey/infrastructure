@@ -144,15 +144,6 @@
     <Content Include="Views\Shared\_ZenLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\ZenGarden\CoLtd.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\ZenGarden\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\ZenGarden\SilentStrength.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="App_GlobalResources\WebResources.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>WebResources.Designer.cs</LastGenOutput>
