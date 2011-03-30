@@ -106,6 +106,14 @@
     <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
     <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
     <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Scripts\QUnit\qunit\qunit.css" />
+    <Content Include="Scripts\QUnit\qunit\qunit.js" />
+    <Content Include="Scripts\QUnit\test\headless.html" />
+    <Content Include="Scripts\QUnit\test\index.html" />
+    <Content Include="Scripts\QUnit\test\logs.html" />
+    <Content Include="Scripts\QUnit\test\logs.js" />
+    <Content Include="Scripts\QUnit\test\same.js" />
+    <Content Include="Scripts\QUnit\test\test.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
