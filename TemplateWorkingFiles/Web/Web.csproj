@@ -57,31 +57,55 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_GlobalResources\WebResources.Designer.cs">
+    <Compile Include="App_GlobalResources\Index.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>WebResources.resx</DependentUpon>
+      <DependentUpon>Index.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\ZenGarden.it.designer.cs">
+    <Compile Include="App_GlobalResources\Index.fr.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ZenGarden.it.resx</DependentUpon>
+      <DependentUpon>Index.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Index.it.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Index.it.resx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\ZenGarden.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
       <DependentUpon>ZenGarden.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="App_GlobalResources\ZenGarden.fr.designer.cs">
+      <DependentUpon>ZenGarden.fr.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="App_GlobalResources\ZenGarden.it.designer.cs">
+      <DependentUpon>ZenGarden.it.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ZenGardenController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\IRepository.cs" />
-    <Compile Include="Repository\RepositoryBase.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_GlobalResources\ZenGarden.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ZenGarden.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\ZenGarden.it.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ZenGarden.it.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\ZenGarden.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ZenGarden.Designer.cs</LastGenOutput>
+    </Content>
     <Content Include="Assembly.ico" />
     <Content Include="Content\CoLtd.css" />
     <Content Include="Content\zengarden-sample.css" />
@@ -102,6 +126,14 @@
     <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
     <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
     <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Scripts\QUnit\qunit\qunit.css" />
+    <Content Include="Scripts\QUnit\qunit\qunit.js" />
+    <Content Include="Scripts\QUnit\test\headless.html" />
+    <Content Include="Scripts\QUnit\test\index.html" />
+    <Content Include="Scripts\QUnit\test\logs.html" />
+    <Content Include="Scripts\QUnit\test\logs.js" />
+    <Content Include="Scripts\QUnit\test\same.js" />
+    <Content Include="Scripts\QUnit\test\test.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -137,37 +169,27 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\index.cshtml" />
-    <Content Include="Views\Home\translations.cshtml" />
     <Content Include="Views\Home\zengarden.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\_ZenLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\ZenGarden\CoLtd.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\ZenGarden\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\ZenGarden\SilentStrength.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_GlobalResources\WebResources.resx">
+    <Content Include="App_GlobalResources\Index.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>WebResources.Designer.cs</LastGenOutput>
+      <LastGenOutput>Index.Designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_GlobalResources\ZenGarden.resx">
+    <Content Include="App_GlobalResources\Index.it.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>ZenGarden.Designer.cs</LastGenOutput>
+      <LastGenOutput>Index.it.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_GlobalResources\ZenGarden.it.resx">
+    <Content Include="App_GlobalResources\Index.fr.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>ZenGarden.it.designer.cs</LastGenOutput>
+      <LastGenOutput>Index.fr.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

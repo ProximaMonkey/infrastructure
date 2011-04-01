@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The Beauty of &lt;acronym title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/acronym&gt; Design.
+        ///   Looks up a localized string similar to The Beauty of Cascading Style Sheet (CSS) Design.
         /// </summary>
         internal static string BeautyOfCss {
             get {
@@ -70,24 +70,11 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A demonstration of what can be accomplished visually through &lt;acronym title=&quot;Cascading Style Sheets&quot;&gt;
-        ///                CSS&lt;/acronym&gt;-based design. Select any style sheet from the list to load it into
-        ///                this page..
+        ///   Looks up a localized string similar to A demonstration of what can be accomplished visually through CSS-based design. Select any style sheet from the list to load it into this page..
         /// </summary>
         internal static string QuickSummaryP1 {
             get {
                 return ResourceManager.GetString("QuickSummaryP1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Download the sample &lt;a href=&quot;zengarden-sample.html&quot; title=&quot;This page&apos;s source HTML code, not to be modified.&quot;&gt;
-        ///                html file&lt;/a&gt; and &lt;a href=&quot;zengarden-sample.css&quot; title=&quot;This page&apos;s sample CSS, the file you may modify.&quot;&gt;
-        ///                    css file&lt;/a&gt;.
-        /// </summary>
-        internal static string QuickSummaryP2 {
-            get {
-                return ResourceManager.GetString("QuickSummaryP2", resourceCulture);
             }
         }
         

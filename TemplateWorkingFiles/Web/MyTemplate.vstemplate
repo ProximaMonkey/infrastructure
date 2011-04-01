@@ -17,8 +17,14 @@
   <TemplateContent>
     <Project TargetFileName="Web.csproj" File="Web.csproj" ReplaceParameters="true">
       <Folder Name="App_GlobalResources" TargetFolderName="App_GlobalResources">
-        <ProjectItem ReplaceParameters="true" TargetFileName="WebResources.resx">WebResources.resx</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="WebResources.Designer.cs">WebResources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Index.fr.resx">Index.fr.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Index.fr.designer.cs">Index.fr.designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Index.it.resx">Index.it.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Index.it.designer.cs">Index.it.designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Index.resx">Index.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Index.Designer.cs">Index.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ZenGarden.fr.resx">ZenGarden.fr.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ZenGarden.fr.designer.cs">ZenGarden.fr.designer.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="ZenGarden.it.resx">ZenGarden.it.resx</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="ZenGarden.it.designer.cs">ZenGarden.it.designer.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="ZenGarden.resx">ZenGarden.resx</ProjectItem>
@@ -52,7 +58,6 @@
       </Folder>
       <Folder Name="Controllers" TargetFolderName="Controllers">
         <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="ZenGardenController.cs">ZenGardenController.cs</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
@@ -60,10 +65,6 @@
       <Folder Name="Models" TargetFolderName="Models" />
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      </Folder>
-      <Folder Name="Repository" TargetFolderName="Repository">
-        <ProjectItem ReplaceParameters="true" TargetFileName="IRepository.cs">IRepository.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="RepositoryBase.cs">RepositoryBase.cs</ProjectItem>
       </Folder>
       <Folder Name="Scripts" TargetFolderName="Scripts">
         <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.4-vsdoc.js">jquery-1.4.4-vsdoc.js</ProjectItem>
@@ -84,12 +85,25 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcAjax.js">MicrosoftMvcAjax.js</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcValidation.debug.js">MicrosoftMvcValidation.debug.js</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcValidation.js">MicrosoftMvcValidation.js</ProjectItem>
+        <Folder Name="QUnit" TargetFolderName="QUnit">
+          <Folder Name="qunit" TargetFolderName="qunit">
+            <ProjectItem ReplaceParameters="true" TargetFileName="qunit.css">qunit.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="qunit.js">qunit.js</ProjectItem>
+          </Folder>
+          <Folder Name="test" TargetFolderName="test">
+            <ProjectItem ReplaceParameters="true" TargetFileName="headless.html">headless.html</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="logs.html">logs.html</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="logs.js">logs.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="same.js">same.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="test.js">test.js</ProjectItem>
+          </Folder>
+        </Folder>
       </Folder>
       <Folder Name="Views" TargetFolderName="Views">
         <ProjectItem ReplaceParameters="false" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
         <Folder Name="Home" TargetFolderName="Home">
           <ProjectItem ReplaceParameters="false" TargetFileName="index.cshtml">index.cshtml</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="translations.cshtml">translations.cshtml</ProjectItem>
           <ProjectItem ReplaceParameters="false" TargetFileName="zengarden.cshtml">zengarden.cshtml</ProjectItem>
         </Folder>
         <Folder Name="Shared" TargetFolderName="Shared">
@@ -98,11 +112,6 @@
           <ProjectItem ReplaceParameters="false" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
         </Folder>
         <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
-        <Folder Name="ZenGarden" TargetFolderName="ZenGarden">
-          <ProjectItem ReplaceParameters="false" TargetFileName="CoLtd.cshtml">CoLtd.cshtml</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="SilentStrength.cshtml">SilentStrength.cshtml</ProjectItem>
-        </Folder>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
