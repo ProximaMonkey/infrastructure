@@ -1,5 +1,0 @@
-﻿This file contains information for using Nuget to install the assemblies for Specifications Project.
-This process utilizes the packages.config file located in the root location of this project.
-More information regarding the process to install these assemblies is located here:  
-	http://blog.davidebbo.com/2011/03/using-nuget-without-committing-packages.html
-
